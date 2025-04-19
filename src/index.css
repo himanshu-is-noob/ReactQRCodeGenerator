@@ -1,0 +1,62 @@
+body{
+    color : white;
+    background: url(./assets/bg.jpeg);
+}
+
+h1{
+    color : rgb(59, 163, 248) !important; 
+}
+p{
+    color: rgb(13, 96, 240);
+}
+
+.container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.formPart{
+    margin-top: 5rem;
+    padding : 1rem;
+    border-radius: 20px;
+    height: 500px;
+    width : 500px;
+    backdrop-filter: blur(20px);
+}
+
+form{
+    margin-top : 2rem;
+}
+
+.input-box{
+    border-radius : 10px !important;
+    padding: 5px;
+    width: 25rem !important;
+    background: transparent !important;   
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.text-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.output-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+   
+}
